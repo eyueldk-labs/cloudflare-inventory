@@ -1,0 +1,34 @@
+name: Update from upstream
+
+# Keeps this copy of the app up to date. Cloudflare redeploys after each update,
+# and the app applies new database migrations on its own.
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 3 * * 1" # Mondays 03:17 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-from-upstream
+  cancel-in-progress: false
+
+jobs:
+  update:
+    # Copies only; the upstream repository does not update itself.
+    if: github.repository != 'eyueldk-labs/cloudflare-inventory'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Merge upstream
+        env:
+          UPSTREAM: ${{ vars.UPSTREAM_REPO || 'eyueldk-labs/cloudflare-inventory' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          ./scripts/update-from-upstream.sh
+      - name: Push
+        run: git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -12,6 +12,10 @@ A private inventory app for small makers: inputs (materials and packaging), prod
 
 Open the app right after it deploys, so you are the one who creates the owner account.
 
+## Updates
+
+Your copy updates itself every Monday from this repository, and Cloudflare redeploys it. To update now, open your repository's **Actions** tab, choose **Update from upstream**, and select **Run workflow**. Your `wrangler.jsonc` is never changed.
+
 ## Develop
 
 ```bash
