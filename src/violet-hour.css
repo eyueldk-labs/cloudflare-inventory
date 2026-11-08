@@ -1,0 +1,44 @@
+/* Violet Hour: the dark theme for the app. */
+[data-theme="violet-hour"] {
+  --background: oklch(0.152 0.017 295.7);
+  --foreground: oklch(0.971 0.009 299.2);
+  --card: oklch(0.200 0.022 296.9);
+  --card-foreground: oklch(0.971 0.009 299.2);
+  --popover: oklch(0.200 0.022 296.9);
+  --popover-foreground: oklch(0.971 0.009 299.2);
+  /* Lighter fill so dark primary-foreground clears 4.5:1 (axe measured ~4.3 at 0.763). */
+  --primary: oklch(0.81 0.11 294.7);
+  --primary-foreground: oklch(0.12 0.02 295.7);
+  --secondary: oklch(0.246 0.027 297.5);
+  --secondary-foreground: oklch(0.971 0.009 299.2);
+  --muted: oklch(0.246 0.027 297.5);
+  /* Lighter than the source tone so drawer labels keep 4.5:1 when the sheet overlay blends. */
+  --muted-foreground: oklch(0.80 0.032 302.3);
+  --accent: oklch(0.246 0.027 297.5);
+  --accent-foreground: oklch(0.971 0.009 299.2);
+  --destructive: oklch(0.711 0.166 22.2);
+  /* Severity tokens: colour + icon + text (never colour alone). AA on dark surfaces. */
+  --severity-error: oklch(0.78 0.14 25);
+  /* Brighter so warning badges clear 4.5:1 on dark surfaces (axe measured 4.38 at 0.84). */
+  --severity-warning: oklch(0.90 0.12 85);
+  --severity-info: oklch(0.82 0.07 250);
+  --severity-success: oklch(0.84 0.12 150);
+  --border: oklch(0.280 0.030 295.9);
+  --input: oklch(0.280 0.030 295.9);
+  --ring: oklch(0.81 0.11 294.7);
+  --chart-1: oklch(0.81 0.11 294.7);
+  --chart-2: oklch(0.752 0.040 302.3);
+  --chart-3: oklch(0.280 0.030 295.9);
+  --chart-4: oklch(0.200 0.022 296.9);
+  --chart-5: oklch(0.170 0.017 296);
+  --radius: 0.5rem;
+  --sidebar: oklch(0.170 0.017 296);
+  --sidebar-foreground: oklch(0.971 0.009 299.2);
+  --sidebar-primary: oklch(0.81 0.11 294.7);
+  --sidebar-primary-foreground: oklch(0.152 0.017 295.7);
+  --sidebar-accent: oklch(0.246 0.027 297.5);
+  --sidebar-accent-foreground: oklch(0.971 0.009 299.2);
+  --sidebar-border: oklch(0.280 0.030 295.9);
+  --sidebar-ring: oklch(0.81 0.11 294.7);
+  color-scheme: dark;
+}
