@@ -1,0 +1,416 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-09T15:12:33Z",
+  "title": "Design System: Inventory",
+  "extensions": {
+    "colorMeta": {
+      "background": {
+        "role": "neutral",
+        "displayName": "Night Violet",
+        "canonical": "oklch(0.152 0.017 295.7)",
+        "tonalRamp": [
+          "oklch(0.15 0.015 295.7)",
+          "oklch(0.26 0.019 295.7)",
+          "oklch(0.37 0.023 295.7)",
+          "oklch(0.48 0.027 295.7)",
+          "oklch(0.60 0.028 295.7)",
+          "oklch(0.71 0.024 295.7)",
+          "oklch(0.83 0.019 295.7)",
+          "oklch(0.95 0.015 295.7)"
+        ]
+      },
+      "sidebar": {
+        "role": "neutral",
+        "displayName": "Deep Sidebar",
+        "canonical": "oklch(0.170 0.017 296)",
+        "tonalRamp": [
+          "oklch(0.15 0.015 296)",
+          "oklch(0.26 0.019 296)",
+          "oklch(0.37 0.023 296)",
+          "oklch(0.48 0.027 296)",
+          "oklch(0.60 0.028 296)",
+          "oklch(0.71 0.024 296)",
+          "oklch(0.83 0.019 296)",
+          "oklch(0.95 0.015 296)"
+        ]
+      },
+      "card": {
+        "role": "neutral",
+        "displayName": "Panel Violet",
+        "canonical": "oklch(0.200 0.022 296.9)",
+        "tonalRamp": [
+          "oklch(0.15 0.017 296.9)",
+          "oklch(0.26 0.022 296.9)",
+          "oklch(0.37 0.027 296.9)",
+          "oklch(0.48 0.032 296.9)",
+          "oklch(0.60 0.033 296.9)",
+          "oklch(0.71 0.028 296.9)",
+          "oklch(0.83 0.023 296.9)",
+          "oklch(0.95 0.017 296.9)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Violet",
+        "canonical": "oklch(0.246 0.027 297.5)",
+        "tonalRamp": [
+          "oklch(0.15 0.020 297.5)",
+          "oklch(0.26 0.025 297.5)",
+          "oklch(0.37 0.031 297.5)",
+          "oklch(0.48 0.036 297.5)",
+          "oklch(0.60 0.037 297.5)",
+          "oklch(0.71 0.032 297.5)",
+          "oklch(0.83 0.026 297.5)",
+          "oklch(0.95 0.020 297.5)"
+        ]
+      },
+      "border": {
+        "role": "neutral",
+        "displayName": "Hairline Violet",
+        "canonical": "oklch(0.280 0.030 295.9)",
+        "tonalRamp": [
+          "oklch(0.15 0.020 295.9)",
+          "oklch(0.26 0.025 295.9)",
+          "oklch(0.37 0.031 295.9)",
+          "oklch(0.48 0.036 295.9)",
+          "oklch(0.60 0.037 295.9)",
+          "oklch(0.71 0.032 295.9)",
+          "oklch(0.83 0.026 295.9)",
+          "oklch(0.95 0.020 295.9)"
+        ]
+      },
+      "foreground": {
+        "role": "neutral",
+        "displayName": "Moonlight",
+        "canonical": "oklch(0.971 0.009 299.2)",
+        "tonalRamp": [
+          "oklch(0.15 0.010 299.2)",
+          "oklch(0.26 0.013 299.2)",
+          "oklch(0.37 0.015 299.2)",
+          "oklch(0.48 0.018 299.2)",
+          "oklch(0.60 0.019 299.2)",
+          "oklch(0.71 0.016 299.2)",
+          "oklch(0.83 0.013 299.2)",
+          "oklch(0.95 0.010 299.2)"
+        ]
+      },
+      "muted-foreground": {
+        "role": "neutral",
+        "displayName": "Lilac Grey",
+        "canonical": "oklch(0.80 0.032 302.3)",
+        "tonalRamp": [
+          "oklch(0.15 0.025 302.3)",
+          "oklch(0.26 0.032 302.3)",
+          "oklch(0.37 0.039 302.3)",
+          "oklch(0.48 0.046 302.3)",
+          "oklch(0.60 0.047 302.3)",
+          "oklch(0.71 0.040 302.3)",
+          "oklch(0.83 0.032 302.3)",
+          "oklch(0.95 0.025 302.3)"
+        ]
+      },
+      "primary": {
+        "role": "primary",
+        "displayName": "Lavender Signal",
+        "canonical": "oklch(0.81 0.11 294.7)",
+        "tonalRamp": [
+          "oklch(0.15 0.069 294.7)",
+          "oklch(0.26 0.088 294.7)",
+          "oklch(0.37 0.108 294.7)",
+          "oklch(0.48 0.128 294.7)",
+          "oklch(0.60 0.131 294.7)",
+          "oklch(0.71 0.111 294.7)",
+          "oklch(0.83 0.090 294.7)",
+          "oklch(0.95 0.069 294.7)"
+        ]
+      },
+      "primary-foreground": {
+        "role": "primary",
+        "displayName": "Ink Violet",
+        "canonical": "oklch(0.12 0.02 295.7)",
+        "tonalRamp": [
+          "oklch(0.15 0.020 295.7)",
+          "oklch(0.26 0.025 295.7)",
+          "oklch(0.37 0.031 295.7)",
+          "oklch(0.48 0.036 295.7)",
+          "oklch(0.60 0.037 295.7)",
+          "oklch(0.71 0.032 295.7)",
+          "oklch(0.83 0.026 295.7)",
+          "oklch(0.95 0.020 295.7)"
+        ]
+      },
+      "destructive": {
+        "role": "error",
+        "displayName": "Destructive Rose",
+        "canonical": "oklch(0.711 0.166 22.2)",
+        "tonalRamp": [
+          "oklch(0.15 0.083 22.2)",
+          "oklch(0.26 0.107 22.2)",
+          "oklch(0.37 0.131 22.2)",
+          "oklch(0.48 0.155 22.2)",
+          "oklch(0.60 0.159 22.2)",
+          "oklch(0.71 0.135 22.2)",
+          "oklch(0.83 0.109 22.2)",
+          "oklch(0.95 0.083 22.2)"
+        ]
+      },
+      "destructive-fill": {
+        "role": "error",
+        "displayName": "Deep Brick",
+        "canonical": "oklch(0.42 0.16 22)",
+        "tonalRamp": [
+          "oklch(0.15 0.079 22)",
+          "oklch(0.26 0.101 22)",
+          "oklch(0.37 0.123 22)",
+          "oklch(0.48 0.146 22)",
+          "oklch(0.60 0.150 22)",
+          "oklch(0.71 0.127 22)",
+          "oklch(0.83 0.103 22)",
+          "oklch(0.95 0.079 22)"
+        ]
+      },
+      "severity-error": {
+        "role": "error",
+        "displayName": "Signal Red",
+        "canonical": "oklch(0.78 0.14 25)",
+        "tonalRamp": [
+          "oklch(0.15 0.074 25)",
+          "oklch(0.26 0.095 25)",
+          "oklch(0.37 0.116 25)",
+          "oklch(0.48 0.137 25)",
+          "oklch(0.60 0.140 25)",
+          "oklch(0.71 0.119 25)",
+          "oklch(0.83 0.097 25)",
+          "oklch(0.95 0.074 25)"
+        ]
+      },
+      "severity-warning": {
+        "role": "warning",
+        "displayName": "Amber Caution",
+        "canonical": "oklch(0.90 0.12 85)",
+        "tonalRamp": [
+          "oklch(0.15 0.064 85)",
+          "oklch(0.26 0.082 85)",
+          "oklch(0.37 0.100 85)",
+          "oklch(0.48 0.118 85)",
+          "oklch(0.60 0.122 85)",
+          "oklch(0.71 0.104 85)",
+          "oklch(0.83 0.084 85)",
+          "oklch(0.95 0.064 85)"
+        ]
+      },
+      "severity-info": {
+        "role": "info",
+        "displayName": "Calm Blue",
+        "canonical": "oklch(0.82 0.07 250)",
+        "tonalRamp": [
+          "oklch(0.15 0.044 250)",
+          "oklch(0.26 0.057 250)",
+          "oklch(0.37 0.069 250)",
+          "oklch(0.48 0.082 250)",
+          "oklch(0.60 0.084 250)",
+          "oklch(0.71 0.072 250)",
+          "oklch(0.83 0.058 250)",
+          "oklch(0.95 0.044 250)"
+        ]
+      },
+      "severity-success": {
+        "role": "success",
+        "displayName": "Fresh Green",
+        "canonical": "oklch(0.84 0.12 150)",
+        "tonalRamp": [
+          "oklch(0.15 0.064 150)",
+          "oklch(0.26 0.082 150)",
+          "oklch(0.37 0.100 150)",
+          "oklch(0.48 0.118 150)",
+          "oklch(0.60 0.122 150)",
+          "oklch(0.71 0.104 150)",
+          "oklch(0.83 0.084 150)",
+          "oklch(0.95 0.064 150)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Overview stat figures."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "The page title (h1)."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Section headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Tables, drawers, descriptions."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Form labels and button text."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Codes, notes, badges, history metadata."
+      }
+    },
+    "shadows": [
+      {
+        "name": "floating-layer",
+        "value": "0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)",
+        "purpose": "Drawers and the dropdown menu."
+      },
+      {
+        "name": "floating-small",
+        "value": "0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)",
+        "purpose": "Popovers."
+      },
+      {
+        "name": "pinned-column-edge",
+        "value": "inset -1px 0 0 var(--border), 6px 0 8px -6px oklch(0 0 0 / 0.6)",
+        "purpose": "Pinned first table column when scrolled sideways."
+      }
+    ],
+    "motion": [
+      {
+        "name": "drawer",
+        "value": "200ms ease-in-out",
+        "purpose": "Side sheet enter and exit."
+      },
+      {
+        "name": "state",
+        "value": "150ms ease",
+        "purpose": "Hover and colour transitions."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "sm",
+        "value": "640px"
+      },
+      {
+        "name": "md",
+        "value": "768px"
+      },
+      {
+        "name": "xl",
+        "value": "1280px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main action on a page or in a drawer footer, such as Record sale or Save.",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14\"/><path d=\"M12 5v14\"/></svg>Record sale</button>",
+      "css": ".ds-btn-primary { display:inline-flex; align-items:center; gap:8px; height:44px; padding:0 16px; border:1px solid transparent; border-radius:0.5rem; background:oklch(0.81 0.11 294.7); color:oklch(0.12 0.02 295.7); font-family: 'Inter Variable', Inter, system-ui, sans-serif; font-size:14px; font-weight:500; cursor:pointer; transition:background .15s; } .ds-btn-primary:hover { background:color-mix(in oklch, oklch(0.81 0.11 294.7) 80%, transparent); } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in oklch, oklch(0.81 0.11 294.7) 50%, transparent); } .ds-btn-primary:active { transform:translateY(1px); }"
+    },
+    {
+      "name": "Outline Button",
+      "kind": "button",
+      "refersTo": "button-outline",
+      "description": "Secondary header action, such as Stock input, and Cancel in drawers.",
+      "html": "<button class=\"ds-btn-outline\">Stock input</button>",
+      "css": ".ds-btn-outline { height:44px; padding:0 16px; border:1px solid oklch(0.280 0.030 295.9); border-radius:0.5rem; background:color-mix(in oklch, oklch(0.280 0.030 295.9) 30%, oklch(0.152 0.017 295.7)); color:oklch(0.971 0.009 299.2); font-family: 'Inter Variable', Inter, system-ui, sans-serif; font-size:14px; font-weight:500; cursor:pointer; transition:background .15s; } .ds-btn-outline:hover { background:oklch(0.246 0.027 297.5); } .ds-btn-outline:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in oklch, oklch(0.81 0.11 294.7) 50%, transparent); }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Label above, unit inside, note below.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Amount</span><span class=\"ds-field-wrap\"><input class=\"ds-input\" value=\"0.05\"/><span class=\"ds-field-unit\">kg</span></span><span class=\"ds-field-note\">0.05 kg = 50 g</span></label>",
+      "css": ".ds-field { display:flex; flex-direction:column; gap:8px; width:260px; font-family: 'Inter Variable', Inter, system-ui, sans-serif; } .ds-field-label { font-size:14px; font-weight:500; color:oklch(0.971 0.009 299.2); } .ds-field-wrap { position:relative; } .ds-input { box-sizing:border-box; width:100%; height:44px; padding:4px 48px 4px 10px; border:1px solid oklch(0.280 0.030 295.9); border-radius:0.5rem; background:color-mix(in oklch, oklch(0.280 0.030 295.9) 30%, oklch(0.152 0.017 295.7)); color:oklch(0.971 0.009 299.2); font-size:14px; outline:none; transition:border-color .15s; } .ds-input:focus-visible { border-color:oklch(0.81 0.11 294.7); outline: none; box-shadow: 0 0 0 3px color-mix(in oklch, oklch(0.81 0.11 294.7) 50%, transparent); } .ds-field-unit { position:absolute; right:12px; top:50%; transform:translateY(-50%); font-size:14px; color:oklch(0.80 0.032 302.3); } .ds-field-note { font-size:12px; color:oklch(0.80 0.032 302.3); }"
+    },
+    {
+      "name": "Stat Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Overview snapshot figure on a flat Panel Violet card.",
+      "html": "<div class=\"ds-card\"><span class=\"ds-card-label\">Sales this month</span><span class=\"ds-card-value\">3,600.00 ETB</span><span class=\"ds-card-hint\">1 sale</span></div>",
+      "css": ".ds-card { display:flex; flex-direction:column; gap:4px; width:260px; padding:16px; border-radius:0.7rem; background:oklch(0.200 0.022 296.9); box-shadow:0 0 0 1px color-mix(in oklch, oklch(0.971 0.009 299.2) 10%, transparent); font-family: 'Inter Variable', Inter, system-ui, sans-serif; } .ds-card-label { font-size:14px; color:oklch(0.80 0.032 302.3); } .ds-card-value { font-family:'Geist Variable', Geist, system-ui, sans-serif; font-size:30px; font-weight:600; letter-spacing:-0.025em; font-variant-numeric:tabular-nums; color:oklch(0.971 0.009 299.2); } .ds-card-hint { font-size:12px; color:oklch(0.80 0.032 302.3); }"
+    },
+    {
+      "name": "Sidebar Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item-active",
+      "description": "Sidebar items; the active one is filled and lavender.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-item\" aria-current=\"page\" href=\"#\">Overview</a><a class=\"ds-nav-item\" href=\"#\">Inputs</a><a class=\"ds-nav-item\" href=\"#\">Products</a><a class=\"ds-nav-item\" href=\"#\">Sales</a></nav>",
+      "css": ".ds-nav { display:flex; flex-direction:column; gap:4px; width:220px; padding:12px; background:oklch(0.170 0.017 296); font-family: 'Inter Variable', Inter, system-ui, sans-serif; } .ds-nav-item { display:flex; align-items:center; height:44px; padding:0 10px; border-radius:0.4rem; color:oklch(0.971 0.009 299.2); font-size:14px; text-decoration:none; transition:background .15s; } .ds-nav-item:hover { background:oklch(0.246 0.027 297.5); } .ds-nav-item[aria-current=page] { background:oklch(0.246 0.027 297.5); color:oklch(0.81 0.11 294.7); } .ds-nav-item:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in oklch, oklch(0.81 0.11 294.7) 50%, transparent); }"
+    },
+    {
+      "name": "Severity Badge",
+      "kind": "chip",
+      "refersTo": "badge",
+      "description": "Status pill: severity colour at 15% with icon and text.",
+      "html": "<span class=\"ds-badge ds-badge-warning\"><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/></svg>Low stock</span>",
+      "css": ".ds-badge { display:inline-flex; align-items:center; gap:4px; height:20px; padding:2px 8px; border-radius:1.3rem; font-family: 'Inter Variable', Inter, system-ui, sans-serif; font-size:12px; font-weight:500; } .ds-badge-warning { background:color-mix(in oklch, oklch(0.90 0.12 85) 15%, transparent); color:oklch(0.90 0.12 85); }"
+    },
+    {
+      "name": "Stock Level Bar",
+      "kind": "custom",
+      "refersTo": "",
+      "description": "Signature component: fill by health, low-level marker at midpoint, status icon.",
+      "html": "<div class=\"ds-stock\" role=\"img\" aria-label=\"Available 1.5 kg, minimum 2 kg\"><span class=\"ds-stock-track\"><span class=\"ds-stock-fill\"></span><span class=\"ds-stock-marker\"></span></span><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" class=\"ds-stock-icon\"><path d=\"m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3\"/><path d=\"M12 9v4\"/><path d=\"M12 17h.01\"/></svg></div>",
+      "css": ".ds-stock { display:flex; align-items:center; gap:8px; width:200px; } .ds-stock-track { position:relative; flex:1; height:10px; border-radius:999px; background:oklch(0.246 0.027 297.5); } .ds-stock-fill { position:absolute; inset:0 auto 0 0; width:37%; border-radius:999px; background:oklch(0.90 0.12 85); } .ds-stock-marker { position:absolute; left:50%; top:50%; width:2px; height:14px; transform:translate(-50%,-50%); background:rgb(212 212 212 / .5); box-shadow:0 0 0 1px oklch(0.152 0.017 295.7); } .ds-stock-icon { color:color-mix(in oklch, oklch(0.90 0.12 85) 80%, transparent); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Inventory",
+    "overview": "The name is the brief: a plain, honest tool for counting what a business has, makes and sells. Everything is in service of exact numbers read quickly, on a phone on the production floor or on a desktop at the end of the day. The interface is one dark theme, Violet Hour: deep violet-black surfaces, near-white text, and a single soft violet accent that marks what you can act on.\n\nDensity is deliberate. Lists are tables with tight rows, right-aligned tabular figures, and a pinned first column, because the job is comparing amounts. Work happens in drawers that slide over the list (from the right on desktop, from the bottom on phones), so the user never loses their place. Surfaces are flat and separated by tone and hairline rings, not shadows.\n\nComponents are refined and restrained: thin borders, modest radii, one accent, and no decoration that does not carry meaning. Status is the one place colour speaks loudly, and it always speaks with an icon and words.",
+    "keyCharacteristics": [
+      "One dark theme only; no light mode or theme picker.",
+      "One violet accent for primary actions, active navigation, focus and the chart line.",
+      "Flat, tonal layering: background → sidebar → card → muted, with hairline rings.",
+      "Tabular, right-aligned numbers everywhere amounts appear.",
+      "Edit-first drawers over lists; the list stays visible behind.",
+      "Touch-sized controls (44 px) that compact to 32 px on a fine pointer at desktop widths."
+    ],
+    "rules": [
+      {
+        "name": "The One Accent Rule",
+        "body": "Lavender Signal is the only accent. It marks what you can act on or where you are; it is never decoration.",
+        "section": "colors"
+      },
+      {
+        "name": "The Never Colour Alone Rule",
+        "body": "Every severity colour appears with its icon (octagon for error, triangle for warning, info circle, check circle) and with text.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Numbers Rule",
+        "body": "Every amount, price, code count and total uses tabular figures and aligns right in tables.",
+        "section": "typography"
+      },
+      {
+        "name": "The Label On Top Rule",
+        "body": "Labels sit above their input, including switches and selects.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat-By-Default Rule",
+        "body": "Surfaces at rest have no shadow. Lift comes from tone; only overlays float.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use Lavender Signal (oklch(0.81 0.11 294.7)) only for primary actions, the active nav item, focus and selection.",
+      "Do pair every severity colour with its icon and words (octagon error, triangle warning, info, check).",
+      "Do right-align amounts with tabular figures and put units inside inputs (\"kg\", \"pcs\", \"ETB\").",
+      "Do keep controls 44 px tall on touch and phones; compact to 32 px only on a fine pointer from 768 px.",
+      "Do open add and edit work in a drawer over the list, with Save in a pinned footer.",
+      "Do put labels above fields and feedback below them.",
+      "Do keep one primary table per page, with the name and code pinned in the first column."
+    ],
+    "donts": [
+      "Don't add a light theme or a theme picker; Violet Hour is the only theme.",
+      "Don't use shadows on resting surfaces; separate them with tone and hairline rings.",
+      "Don't show status with colour alone, or put the stock number as visible text beside the stock bar.",
+      "Don't add a second accent colour or use the accent for decoration.",
+      "Don't use Deep Brick destructive fills outside confirmation steps."
+    ]
+  }
+}
