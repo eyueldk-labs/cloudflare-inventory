@@ -41,7 +41,13 @@ async function migrate(db: D1Database) {
       await db.batch([db.prepare("INSERT INTO d1_migrations (name) VALUES (?)").bind(migration.name), ...statements])
     } catch (error) {
       const again = await db.prepare("SELECT 1 FROM d1_migrations WHERE name = ?").bind(migration.name).first()
-      if (!again) throw error
+      if (again) continue
+      // Another tool (for example an installer) already applied this file without recording it here.
+      if (/already exists/i.test(String((error as Error)?.message ?? error))) {
+        await db.prepare("INSERT OR IGNORE INTO d1_migrations (name) VALUES (?)").bind(migration.name).run()
+        continue
+      }
+      throw error
     }
   }
 }
