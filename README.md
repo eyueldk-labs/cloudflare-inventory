@@ -2,19 +2,25 @@
 
 A private inventory app for small makers: inputs (materials and packaging), products with compositions, production runs, sales with invoices, alerts, and a full audit trail. It runs on your own Cloudflare account. The free plan is enough.
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/eyueldk-labs/cloudflare-inventory)
+**[Install on Cloudflare →](https://cloudflare-installer.eyueldk.workers.dev/?repo=eyueldk-labs/cloudflare-inventory)**
 
 ## Get started
 
-1. Click **Deploy to Cloudflare** and accept the defaults. A D1 database is created for you.
-2. Open your app's URL. The first person to open it creates the owner account and the first organization.
-3. Invite everyone else from **Users**: make a link and send it in any chat app.
+1. Open the **Install on Cloudflare** link above. You only need a free Cloudflare account; no GitHub account.
+2. Select **Create a token**, create it on the Cloudflare page that opens, and paste it back. Then select **Install**.
+3. Open your app's address. The first person to open it creates the owner account and the first organization.
+4. Invite everyone else from **Users**: make a link and send it in any chat app.
 
-Open the app right after it deploys, so you are the one who creates the owner account.
+Open the app right after it installs, so you are the one who creates the owner account.
 
 ## Updates
 
-Your copy updates itself every Monday from this repository, and Cloudflare redeploys it. To update now, open your repository's **Actions** tab, choose **Update from upstream**, and select **Run workflow**. Your `wrangler.jsonc` is never changed.
+Open the same install link and select **Update**. Your data stays where it is.
+
+## Other ways to install
+
+- **With GitHub:** [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/eyueldk-labs/cloudflare-inventory) copies this repository into your GitHub account and deploys it. That copy updates itself every Monday (or on demand: **Actions** → **Update from upstream** → **Run workflow**).
+- **Prebuilt bundle:** every release has a ready-to-deploy `cloudflare-app.tar.gz` (Worker, static files, and `manifest.json`).
 
 ## Develop
 
