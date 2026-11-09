@@ -1,0 +1,41 @@
+name: Release
+
+# Publishes a ready-to-deploy bundle on every push to main, as a GitHub Release
+# (marked latest). The one-click installer deploys it with no build step.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    # Only the upstream repository publishes releases; deployed copies do not.
+    if: github.repository == 'eyueldk-labs/cloudflare-inventory'
+    runs-on: ubuntu-latest
+    env:
+      VERSION: 0.1.${{ github.run_number }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+      - name: Pack bundle
+        run: BUNDLE_VERSION="$VERSION" node scripts/make-bundle.mjs
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "v$VERSION" release/cloudflare-app.tar.gz release/manifest.json \
+            --target "$GITHUB_SHA" --latest --title "v$VERSION" \
+            --notes "Ready-to-deploy bundle built from ${GITHUB_SHA::7}. Install or update with the one-click installer."
